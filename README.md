@@ -10,7 +10,7 @@
 UFine6926 is the first manually annotated high-quality dataset with ultra-fine granularity for text-based person retrieval. It contains 26,206 images and 52,412 textual descriptions of 6,926 persons totally. The average word count per textual description is 80.8, which is three to four times that of previous datasets.
 
 ## UFine3C
-UFine3C is a special evaluation set with cross domains, cross textual granularity and cross textual styles. It is more representative of the huge variations in real scenarios and can be utilized to better evaluate the model's performance in practical applications. It contains 7,446 images, 37,939 text queris of 2,250 persons totally. 
+UFine3C is a special evaluation set with cross domains, cross textual granularity and cross textual styles. It is more representative of the huge variations in real scenarios and can be utilized to better evaluate the model's performance in practical applications. It contains 7,446 images, 37,939 text queries of 2,250 persons totally. 
 
 ## Reference
 If you use this work in your research, please cite it by the following BibTeX entry:
