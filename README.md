@@ -1,5 +1,5 @@
 # UFineBench
-**UFineBench** is a new benchmark towards ultra-fine-grained text-based person retrieval. It mainly contains a new manually annotated fine-grained dataset **UFine6926**, a special evaluation set **UFine3C**, a new metric named mSD and a new algorithm CFAM. More details can be found at our paper [UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granualrity](https://arxiv.org/abs/2312.03441).
+**UFineBench** is a new benchmark towards ultra-fine-grained text-based person retrieval. It mainly contains a new manually annotated fine-grained dataset **UFine6926**, a special evaluation set **UFine3C**, a new metric named mSD and a new algorithm CFAM. More details can be found at our paper [UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity](https://arxiv.org/abs/2312.03441).
 
 ## News
 * 🔥[12.7] The paper is released. The UFine6926 and UFine3C will be released in a few days.
