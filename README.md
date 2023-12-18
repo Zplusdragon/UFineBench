@@ -8,7 +8,7 @@
 * 🔥[12.7] The paper is released.
 
 ## How to obtain the datasets
-Please download and sign the license agreement (UFineBench_License.pdf) and send it to jlongzuo@hust.edu.cn. Once the procedure is approved, the download link will be sent to your email. Please note that if you are a current student, you should have your supervisor sign it.
+Please download and sign the license agreement (UFineBench_License.pdf) and send it to jlongzuo@hust.edu.cn or cgao@hust.edu.cn . Once the procedure is approved, the download link will be sent to your email. Please note that if you are a current student, you should have your supervisor sign it.
 
 ## UFine6926
 UFine6926 is the first **manually annotated** high-quality dataset with ultra-fine granularity for text-based person retrieval. It contains 26,206 images and 52,412 textual descriptions of 6,926 persons totally. The average word count per textual description is 80.8, which is **three to four times** that of previous datasets. The word count distribution and some examples of UFine6926 are shown below.
