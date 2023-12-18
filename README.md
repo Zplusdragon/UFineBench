@@ -27,7 +27,25 @@ Annotation format:
 ## UFine3C
 UFine3C is a special **evaluation** set with cross domains, cross textual granularity and cross textual styles. It is more representative of the huge variations in real scenarios and can be utilized to better evaluate the model's performance in practical applications. It contains 7,446 images, 37,939 text queries of 2,250 persons totally. The word count distribution and some examples of UFine3C are shown below.
 
+<div align="center"><img src="assets/UFine3C.png" width="1000"></div>
 
+Annoatation format (every image has multiple text queries with different textual style):
+```
+{
+  "id": 2250,
+  "source": "UFine6926",
+  "split": "test",
+  "file_path": "images/7446.jpg",
+  "captions": [
+    "The young man has wheat-colored skin, average height, and a normal build. His short black hair is styled with a pair of black sunglasses perched on his nose. A dark circle of stubble adorns his chin. He dons a pure cotton short-sleeved T-shirt with white letter patterns imprinted on it, which ends just above his rear. Paired with the shirt is a pair of short light gray sports pants that extend up to his knees. His footwear consists of canvas shoes with black soles and white bases.",
+    "This young man has a fit build and stands at an average height. His skin has a warm, golden tone, and his short black hair is styled in a neat, tidy way. He's wearing a pair of sleek black sunglasses that complement his sharp features. A faint shadow of stubble graces his chin, giving him a subtle, rugged look.",
+    "This young man has a medium height and a fit physique. His skin is a warm, golden brown color, and his short black hair is styled in a neat, tidy manner. He's wearing a pair of sleek black sunglasses and a well-groomed black beard on his chin. His upper body is clad in a black cotton short-sleeved T-shirt with a crisp white letter pattern, which falls just above his belly button. He's paired this with a pair of light gray sports pants that hit just above his knees, creating a stylish and comfortable look. His feet are clad in a pair of black canvas shoes with white soles, adding a touch of sportiness to his overall appearance.",
+    "A fit young man with a medium height and warm, golden brown skin dons a black cotton short-sleeved T-shirt with a crisp white letter pattern that falls just above his belly button, paired with sleek black sunglasses and a well-groomed black beard on his chin. His lower body is covered by light gray sports pants that hit just above his knees, completed with a pair of black canvas shoes with white soles for added sportiness.",
+    "This is a young man with wheat-colored skin, average height, and an appropriate build. He has short black hair and wears a pair of black sunglasses. There's a circle of dark stubble on his chin. His upper body is wearing a pure cotton short-sleeved T-shirt with white letter patterns printed on it, and the length of the T-shirt reaches just above his butt. His lower body is wearing a short light gray sports pants that reach just above his knees. On his feet, he's wearing a pair of canvas shoes with black soles and white bases.",
+    "This young man has a fit physique and stands at a medium height. His skin has a warm, golden brown tone, and his short black hair is styled neatly. He's wearing a pair of black sunglasses and a well-groomed black beard that adds a touch of sophistication to his look. His upper body is clad in a black cotton short-sleeved T-shirt with a crisp white letter pattern, which falls just above his belly button. The T-shirt is paired with light gray sports pants that hit just above his knees, creating a stylish and comfortable look. His feet are clad in black canvas shoes with white soles, adding a touch of sportiness to his overall appearance. Overall, this young man exudes confidence and style."
+        ]
+}
+```
 
 
 ## Reference
