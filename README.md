@@ -4,14 +4,18 @@
 **UFineBench** is a new benchmark towards ultra-fine-grained text-based person retrieval. It mainly contains a new manually annotated fine-grained dataset **UFine6926**, a special evaluation set **UFine3C**, a new metric named mSD and a new algorithm CFAM. More details can be found at our paper [UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity](https://arxiv.org/abs/2312.03441).
 
 ## News
-* 🔥[12.7] The paper is released. The UFine6926 and UFine3C will be released in a few days.
-  
+* 🔥[12.18] The UFine6926 and UFine3C are released. Welcome to download and use!
+* 🔥[12.7] The paper is released.
+
+## How to obtain the datasets
+Please download and sign the license agreement (UFineBench_License.pdf) and send it to jlongzuo@hust.edu.cn. Once the procedure is approved, the download link will be sent to your email. Please note that if you are a current student, you should have your supervisor sign it.
+
 ## UFine6926
 UFine6926 is the first **manually annotated** high-quality dataset with ultra-fine granularity for text-based person retrieval. It contains 26,206 images and 52,412 textual descriptions of 6,926 persons totally. The average word count per textual description is 80.8, which is **three to four times** that of previous datasets. The word count distribution and some examples of UFine6926 are shown below.
 
 <div align="center"><img src="assets/UFine6926.png" width="1000"></div>
 
-Annotation format:
+Annotation format (each image is annotated with two ultra-fine-grained textual descriptions):
 ```
 {
   "split": "train",
@@ -29,7 +33,7 @@ UFine3C is a special **evaluation** set with cross domains, cross textual granul
 
 <div align="center"><img src="assets/UFine3C.png" width="1000"></div>
 
-Annoatation format (every image has multiple text queries with different textual style):
+Annoatation format (every image has multiple text queries with different textual styles):
 ```
 {
   "id": 2250,
