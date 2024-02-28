@@ -1,11 +1,12 @@
-# UFineBench
+# UFineBench (CVPR2024)
 <div align="center"><img src="assets/UFinebench.png" width="900"></div>
 
 **UFineBench** is a new benchmark towards ultra-fine-grained text-based person retrieval. It mainly contains a new manually annotated fine-grained dataset **UFine6926**, a special evaluation set **UFine3C**, a new metric named mSD and a new algorithm CFAM. More details can be found at our paper [UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity](https://arxiv.org/abs/2312.03441).
 
 ## News
-* 🔥[12.18] The UFine6926 and UFine3C are released. Welcome to download and use!
-* 🔥[12.7] The paper is released.
+* 🙂[2024.2.27] Good News! Our paper is accepted by **CVPR2024**.
+* 🔥[2023.12.18] The UFine6926 and UFine3C are released. Welcome to download and use!
+* 🔥[2023.12.7] The paper is released.
 
 ## How to obtain the datasets
 Please download and sign the license agreement (UFineBench_License.pdf) and send it to jlongzuo@hust.edu.cn or cgao@hust.edu.cn . Once the procedure is approved, the download link will be sent to your email. Please note that if you are a current student, you should have your supervisor sign it.
