@@ -24,7 +24,7 @@ Annotation format (each image is annotated with two ultra-fine-grained textual d
   "file_path": "images/1.jpg",
   "captions": [
     "A middle-aged woman with a moderate build, her brown hair falls below her shoulders. She is dressed in a white jacket and a pair of dark blue, ankle-length tight pants. She wears a pair of black sandals without socks and carries a camouflage backpack with a black label, which bears some letters, slung over her shoulder. The backpack has two layers. She walks forward, her gait confident and purposeful, on a bustling street.",
-    "A middle-aged woman with a medium-built body had brown hair, which exceeded her shoulders, and was wearing a white long-sleeved jacket and a pair of dak blue tight-fitting jeans. The length of the jeans reached her ankles, and she was also wearing a pair of dark brown sandals, without socks. She was carrying a camouflage backpack on her back, with a black label on it. It seemed that there were some letters on the black label."
+    "A middle-aged woman with a medium-built body had brown hair, which exceeded her shoulders, and was wearing a white long-sleeved jacket and a pair of dark blue tight-fitting jeans. The length of the jeans reached her ankles, and she was also wearing a pair of dark brown sandals, without socks. She was carrying a camouflage backpack on her back, with a black label on it. It seemed that there were some letters on the black label."
         ]
 }
 ```
