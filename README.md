@@ -56,11 +56,10 @@ Annoatation format (every image has multiple text queries with different textual
 ## Reference
 If you use this work in your research, please cite it by the following BibTeX entry:
 ```
-@misc{zuo2023ufinebench,
-      title={UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity}, 
-      author={Jialong Zuo and Hanyu Zhou and Ying Nie and Feng Zhang and Tianyu Guo and Nong Sang and Yunhe Wang and Changxin Gao},
-      year={2023},
-      eprint={2312.03441},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{zuo2024ufinebench,
+  title={UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity},
+  author={Zuo, Jialong and Zhou, Hanyu and Nie, Ying and Zhang, Feng and Guo, Tianyu and Sang, Nong and Wang, Yunhe and Gao, Changxin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={22010--22019},
+  year={2024}
 }
