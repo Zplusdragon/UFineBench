@@ -23,9 +23,9 @@ def mSD_rank(similarity, q_pids, g_pids, max_rank=10):
     negative_similarity_average = negative_similarity_sum/(similarity.shape[1]-num_rel)
     pn_ratio = (postive_similarity_average / negative_similarity_average).numpy()
     pn_ratio = torch.tensor([1 - math.exp(-x) for x in pn_ratio])
-
-    similarity_cmc = torch.tensor([list(accumulate(x)) for x in similarity])
-    positive_similarity_cmc = torch.tensor([list(accumulate(x)) for x in postive_similarity])
+    similarity_cmc = torch.cumsum(similarity, dim=1)
+    positive_similarity_cmc = torch.cumsum(postive_similarity, dim=1)
+    
     sd_cmc = positive_similarity_cmc/similarity_cmc
     sd_cmc = sd_cmc * matches
     SD = (sd_cmc.sum(1) / num_rel) * pn_ratio
